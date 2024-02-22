@@ -49,6 +49,27 @@
         .column a{
             text-decoration: none;
         }
+        .three-columns {
+            text-align: center;
+            font-size: 0;
+            padding: 15px 0 25px;
+        }
+        .three-columns .column {
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top; 
+            text-align: center; /* logo & icons stacked on top of each other when media is minimized */
+        }
+        .three-columns .padding {
+            padding: 15px;
+        }
+        .three-columns .content {
+            font-size: 13px;
+            line-height: 20px;
+            padding: 0 5px;
+
+        }
     </style>
 </head>
 <body>
@@ -120,8 +141,99 @@
                                     <img src="images/banner.jpg"
                                     width="600px"
                                     style="max-width: 100%"
-                                    alt="Banner Image"
+                                    alt="Banner Image">
                                 </a>
+                            </td>
+                        </tr>
+
+    <!-- Three Column Section -->
+                        <tr>
+                            <td>
+                                <table width="100%">
+                                    <tr>
+                                        <td class="three-columns">
+
+                                            <table class="column">
+                                                <tr>
+                                                    <td class="padding">
+                                                        <table class="content">
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="#">
+                                                                        <img src="/images/email.png"
+                                                                        alt="Email Icon"
+                                                                        width="130px"
+                                                                        style="max-width: 130px">
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="font-weight: bold;font-size:17px">Ecommerce</p>
+                                                                    <p>Empower your online presence with our e-commerce solutions, driving organic growth and propelling your business to success. </p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                            <table class="column">
+                                                <tr>
+                                                    <td class="padding">
+                                                        <table class="content">
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="#">
+                                                                        <img src="/images/settings.png"
+                                                                        width="130px"
+                                                                        style="max-width: 130px">
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="font-weight: bold;font-size:17px">Web Design</p>
+                                                                    <p>Transform your online presence with our cutting-edge web design solutions, crafted to captivate audiences and drive unparalleled engagement.</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                            <table class="column">
+                                                <tr>
+                                                    <td class="padding">
+                                                        <table class="content">
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="#">
+                                                                        <img src="/images/home.png"
+                                                                        width="130px"
+                                                                        style="max-width: 130px">
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="font-weight: bold;font-size:17px">Online Presence</p>
+                                                                    <p>Say good bye to brick and mortar and embrace the digital future with our transformative web design services, empowering your brand to thrive online.</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+
+                                        </td>
+                                    </tr>
+
+                                </table>
                             </td>
                         </tr>
                     </table>
